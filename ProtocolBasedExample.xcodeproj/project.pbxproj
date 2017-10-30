@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		ABE579A31FA725AE004E669A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE579A21FA725AE004E669A /* AppDelegate.swift */; };
-		ABE579A51FA725AE004E669A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE579A41FA725AE004E669A /* ViewController.swift */; };
 		ABE579A81FA725AF004E669A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE579A61FA725AF004E669A /* Main.storyboard */; };
 		ABE579AA1FA725AF004E669A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE579A91FA725AF004E669A /* Assets.xcassets */; };
 		ABE579AD1FA725AF004E669A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE579AB1FA725AF004E669A /* LaunchScreen.storyboard */; };
 		ABE579B81FA725AF004E669A /* ProtocolBasedExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE579B71FA725AF004E669A /* ProtocolBasedExampleTests.swift */; };
 		ABE579C31FA725AF004E669A /* ProtocolBasedExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE579C21FA725AF004E669A /* ProtocolBasedExampleUITests.swift */; };
+		ABE579D11FA7264B004E669A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE579D01FA7264A004E669A /* FirstViewController.swift */; };
+		ABE579D31FA72657004E669A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE579D21FA72657004E669A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		ABE5799F1FA725AE004E669A /* ProtocolBasedExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolBasedExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE579A21FA725AE004E669A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABE579A41FA725AE004E669A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABE579A71FA725AF004E669A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABE579A91FA725AF004E669A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABE579AC1FA725AF004E669A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		ABE579BE1FA725AF004E669A /* ProtocolBasedExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolBasedExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE579C21FA725AF004E669A /* ProtocolBasedExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBasedExampleUITests.swift; sourceTree = "<group>"; };
 		ABE579C41FA725AF004E669A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE579D01FA7264A004E669A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		ABE579D21FA72657004E669A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ABE579A21FA725AE004E669A /* AppDelegate.swift */,
-				ABE579A41FA725AE004E669A /* ViewController.swift */,
+				ABE579D01FA7264A004E669A /* FirstViewController.swift */,
+				ABE579D21FA72657004E669A /* SecondViewController.swift */,
 				ABE579A61FA725AF004E669A /* Main.storyboard */,
 				ABE579A91FA725AF004E669A /* Assets.xcassets */,
 				ABE579AB1FA725AF004E669A /* LaunchScreen.storyboard */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABE579A51FA725AE004E669A /* ViewController.swift in Sources */,
+				ABE579D31FA72657004E669A /* SecondViewController.swift in Sources */,
 				ABE579A31FA725AE004E669A /* AppDelegate.swift in Sources */,
+				ABE579D11FA7264B004E669A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
